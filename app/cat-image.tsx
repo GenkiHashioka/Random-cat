@@ -23,7 +23,7 @@ export function CatImage({ url }: CatImageProps) {
     <div className={styles.page}>
       {/* (4) ボタンの表示 */}
       <button onClick={refreshImage} className={styles.button}>
-        One more cat!
+        他のにゃんこも見てみる？？
       </button>
       {/* (5) 画像の表示 */}
       <div>{imageUrl && <img src={imageUrl} className={styles.img} />}</div>
